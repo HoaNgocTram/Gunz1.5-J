@@ -1,0 +1,44 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Downloader", "src\Downloader.vcxproj", "{5AB8868A-EDBE-4D23-B5EC-405334B87543}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3F0BBE13-206F-405A-92DD-91C6AD9172AE} = {3F0BBE13-206F-405A-92DD-91C6AD9172AE}
+		{337D7595-B209-4544-BB08-3BBD9DE423E0} = {337D7595-B209-4544-BB08-3BBD9DE423E0}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sha1", "sha1\sha1.vcxproj", "{3F0BBE13-206F-405A-92DD-91C6AD9172AE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gzip", "gzip\gzip.vcxproj", "{337D7595-B209-4544-BB08-3BBD9DE423E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release Amd64|Default = Release Amd64|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AB8868A-EDBE-4D23-B5EC-405334B87543}.Debug|Default.ActiveCfg = Debug|Win32
+		{5AB8868A-EDBE-4D23-B5EC-405334B87543}.Debug|Default.Build.0 = Debug|Win32
+		{5AB8868A-EDBE-4D23-B5EC-405334B87543}.Release Amd64|Default.ActiveCfg = Release Amd64|Win32
+		{5AB8868A-EDBE-4D23-B5EC-405334B87543}.Release Amd64|Default.Build.0 = Release Amd64|Win32
+		{5AB8868A-EDBE-4D23-B5EC-405334B87543}.Release|Default.ActiveCfg = Release|Win32
+		{5AB8868A-EDBE-4D23-B5EC-405334B87543}.Release|Default.Build.0 = Release|Win32
+		{3F0BBE13-206F-405A-92DD-91C6AD9172AE}.Debug|Default.ActiveCfg = Debug|Win32
+		{3F0BBE13-206F-405A-92DD-91C6AD9172AE}.Debug|Default.Build.0 = Debug|Win32
+		{3F0BBE13-206F-405A-92DD-91C6AD9172AE}.Release Amd64|Default.ActiveCfg = Release Amd64|Win32
+		{3F0BBE13-206F-405A-92DD-91C6AD9172AE}.Release Amd64|Default.Build.0 = Release Amd64|Win32
+		{3F0BBE13-206F-405A-92DD-91C6AD9172AE}.Release|Default.ActiveCfg = Release|Win32
+		{3F0BBE13-206F-405A-92DD-91C6AD9172AE}.Release|Default.Build.0 = Release|Win32
+		{337D7595-B209-4544-BB08-3BBD9DE423E0}.Debug|Default.ActiveCfg = Debug|Win32
+		{337D7595-B209-4544-BB08-3BBD9DE423E0}.Debug|Default.Build.0 = Debug|Win32
+		{337D7595-B209-4544-BB08-3BBD9DE423E0}.Release Amd64|Default.ActiveCfg = Release Amd64|Win32
+		{337D7595-B209-4544-BB08-3BBD9DE423E0}.Release Amd64|Default.Build.0 = Release Amd64|Win32
+		{337D7595-B209-4544-BB08-3BBD9DE423E0}.Release|Default.ActiveCfg = Release|Win32
+		{337D7595-B209-4544-BB08-3BBD9DE423E0}.Release|Default.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
