@@ -1,9 +1,10 @@
 # Gunz1.5
 
-This source contains all official game modes, as well as 
-several custom game modes, and has alterations
-To the engine. X64 support, direct3d9ex support, challengequest,
-,blitzkrieg(unfinished), gungame, infection, and skillmap. 
+Nguồn này chứa tất cả các chế độ trò chơi chính thức, cũng như
+một số chế độ trò chơi tùy chỉnh và có các thay đổi, Hỗ trợ X64, hỗ trợ direct3d9ex, challengequest,
+, blitzkrieg (chưa hoàn thành), gunmode, infection và skillmap. 
 
-A big thanks to Secrets Of The Past, Gunblade, Nick, for the amazing amount 
-Of work performed on challengequest. 
+Xin chân thành cảm ơn Secrets Of The Past, Gunblade, Nick, Jetman vì những đóng góp lớn
+
+- Challengequest đang sửa vấn đề tự hồi sinh sau khi chết trong màn chơi
+- Blitzkrieg hiệu suất kém không ổn định hay crash vặt
