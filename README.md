@@ -8,3 +8,4 @@ Xin chân thành cảm ơn Secrets Of The Past, Gunblade, Nick, Jetman vì nhữ
 
 - Challengequest đang sửa vấn đề tự hồi sinh sau khi chết trong màn chơi
 - Blitzkrieg hiệu suất kém không ổn định hay crash vặt
+- Source thiếu ZLauncher và ZPatchBuilder nguyên bản. Vì chưa custom Encrypt mrs nên các bạn có thể dùng Launcher gì cũng đc
